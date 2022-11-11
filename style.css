@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{ display: flex;
+    justify-content: space-between;
+}
+
+
+#PT{
+    display:flex ;
+    align-items: center;
+    margin-top: 6rem;
+
+
+}
+
+
+#phone{
+    display: flex;
+    align-items: center;
+    width:250px;
+    height: 490px ;
+    background: white;
+    margin-left: -3.1rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px hsl(206, 8%, 80%);
+    
+}
+
+
+#phone .mini-purple{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background: hsl(293, 100%, 63%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    height: 70px;
+    width: 240px;
+}
+
+.empty{
+    background: white;
+    width: 150px;
+    height: 50px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    /* margin-top: -40px; */
+
+}
+
+.brkt{
+    display: flex;
+    font-size: 20px;
+    color:white;
+   margin-left:20px;
+
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 5px;
+    color: rgb(213, 187, 238);
+    margin-right: 10px;
+}
+
+img{
+    height: 20px;
+    border:solid white;
+    border-width: 1px;
+    border-radius: 50%;
+   
+}
+
+
+.nh{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+   
+}
+
+ #topchat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 250px;
+    margin-top: 10px;   
+} 
+
+.ns{
+    margin-right: -10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+ .ns .status{ 
+    line-height: 3px;
+    /* color: hsl(290, 37%, 88%); */
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+    background: none;}
+    
+    .ns p{ color:white ;
+            margin-top: -10px;
+            font-size: smaller ;}
+    
+
+h4{ margin-left: 16px;}
+
+/*...text style starts here..*/
+
+ p{padding: 5px;
+    color: hsl(293, 100%, 63%);
+    font-size: 10px;
+    background: hsl(289, 76%, 87%);
+    margin-top: 5px;
+    width: 130px;
+    height: 20px;
+    border-radius: 10px;
+    line-height: 10px;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+
+
+/*--firstchat ends here---*/
+
+/*-- first reply starts here---*/
+
+.reply1{
+          display: flex;
+          flex-direction: column;
+          justify-content:end !important;
+        align-items:flex-end !important;
+        margin-top: 10px;
+    width: 240px;}
+
+
+ .major p{color: white;
+    font-size: 10px;
+    height: 10px;
+    width: 200px;
+    background: hsl(290, 37%, 88%);
+    margin-top: 5px;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;}
+
+    .timg img{ margin: 5px;
+        margin-top: 5px;
+        margin-left: 3px;
+        border: none;
+        height: 30px;
+        border-radius: 10px;
+    }
+ .Cply p{
+    padding: 5px;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center
+
+ }
+
+ .Dcply{ width: 80px;
+    height: 20px;
+     margin-left: 48px;
+
+    
+ }
+
+ #mainchat{
+    background:rgb(251, 232, 232);
+    width:240px;
+    height: 480px ;
+    border-radius: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-items: center;
+ }
+
+ form{
+    margin-top: 20px;
+    padding: 10px;
+ }
+.bp{
+    height: 30px;
+}
+ input{
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    height: 30px;
+   font-size: 10px;
+ }
+
+ .dif{ margin: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 170px;
+    height: 30px;
+    background: hsl(293, 100%, 63%);
+    margin-top: 5px;
+ }
+ 
+ .dif p{ width: 100px ;
+        height: 0%;
+        margin-right: px;
+        background: none;
+        font-size: 12px;
+        color: hsl(293, 37%, 81%);
+}
+
+.dif div{height: 10px;
+        width: 10px;
+        border: solid hsl(293, 76%, 85%);
+        border-width: 1px;
+        border-radius: 5px;
+            }
+
+
+span{ font-size: 12px;
+    font-weight: bold;
+ color: white;}
+/*...text chat ends here.*/
+
+#purple{
+    background: hsl(293, 100%, 63%);
+    height: 600px;
+    width: 450px;
+    border-bottom-right-radius: 20rem;}
+
+    #purple-right{
+        background: hsl(290, 37%, 88%);
+        height: 550px;
+        width: 450px;
+        border-top-left-radius: 20rem;
+        margin-top: 6rem;
+    }
+#para{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    flex-direction: column;
+  
+}
+
+ .pp{
+    background: none;
+    color: hsl(270, 7%, 64%);
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 20px;
+    width: 400px;
+}
+
+h1{
+    color:hsl(270, 36%, 24%);
+    /* margin-right: 50px; */
+}
