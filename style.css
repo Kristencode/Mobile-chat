@@ -6,6 +6,8 @@
 
 body{ display: flex;
     justify-content: space-between;
+    font-family: 'rubik';
+   
 }
 
 
@@ -34,9 +36,9 @@ body{ display: flex;
 #phone .mini-purple{
     display: flex;
     flex-direction: column;
-
+    
     align-items: center;
-    background: hsl(293, 100%, 63%);
+    background: linear-gradient(45deg, #3e32a8,#e310c7);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -122,8 +124,8 @@ h4{ margin-left: 16px;}
 
  p{padding: 5px;
     color: hsl(293, 100%, 63%);
-    font-size: 10px;
-    background: hsl(289, 76%, 87%);
+    font-size: 8px;
+    background: hsl(294, 64%, 91%);
     margin-top: 5px;
     width: 130px;
     height: 20px;
@@ -142,8 +144,8 @@ h4{ margin-left: 16px;}
 .reply1{
           display: flex;
           flex-direction: column;
-          justify-content:end !important;
-        align-items:flex-end !important;
+          justify-content:end ;
+        align-items:flex-end;
         margin-top: 10px;
     width: 240px;}
 
@@ -168,7 +170,7 @@ h4{ margin-left: 16px;}
  .Cply p{
     padding: 5px;
     background: white;
-    color: black;
+    color: hsl(270, 7%, 64%);
     display: flex;
     align-items: center
 
@@ -182,7 +184,7 @@ h4{ margin-left: 16px;}
  }
 
  #mainchat{
-    background:rgb(251, 232, 232);
+    background: hsl(270, 20%, 96%);
     width:240px;
     height: 480px ;
     border-radius: 10px;
@@ -194,9 +196,23 @@ h4{ margin-left: 16px;}
  }
 
  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     padding: 10px;
  }
+
+ .next{ display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 15px;
+        height: 15px;
+        background: hsl(271, 36%, 24%);
+        border-radius: 10px;
+        color: white;
+        margin-left: 11rem;
+    position: fixed;}
 .bp{
     height: 30px;
 }
@@ -216,7 +232,7 @@ h4{ margin-left: 16px;}
     border-radius: 10px;
     width: 170px;
     height: 30px;
-    background: hsl(293, 100%, 63%);
+    background: linear-gradient(45deg,#e310c7,#3e32a8);
     margin-top: 5px;
  }
  
@@ -242,13 +258,13 @@ span{ font-size: 12px;
 /*...text chat ends here.*/
 
 #purple{
-    background: hsl(293, 100%, 63%);
+    background: linear-gradient(45deg, #3e32a8,#e310c7);
     height: 600px;
     width: 450px;
     border-bottom-right-radius: 20rem;}
 
     #purple-right{
-        background: hsl(290, 37%, 88%);
+        background: hsl(270, 20%, 96%);
         height: 550px;
         width: 450px;
         border-top-left-radius: 20rem;
@@ -264,16 +280,16 @@ span{ font-size: 12px;
   
 }
 
+h1{
+    font-size: 16px;
+    margin-right: 16.5rem;
+    font-weight: 400, 500, 700;
+}
  .pp{
     background: none;
     color: hsl(270, 7%, 64%);
-    font-size: 16px;
-    margin-top: 30px;
-    line-height: 20px;
+    margin-top: 25px;
+    line-height: 15px;
     width: 400px;
-}
-
-h1{
-    color:hsl(270, 36%, 24%);
-    /* margin-right: 50px; */
+    font-size: 12px;
 }
