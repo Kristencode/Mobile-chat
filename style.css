@@ -283,7 +283,7 @@ span{ font-size: 12px;
 
 h1{
     font-size: 16px;
-    margin-right: 16.5rem;
+    margin-right: 18rem;
     font-weight: 400, 500, 700;
 }
  .pp{
@@ -308,6 +308,7 @@ h1{
     body{flex-direction:column ;
          justify-content: spac;
          height: 700px;
+         width: fit-content;
         
         }
 
@@ -321,7 +322,9 @@ h1{
             #para{
                 margin-top: 40px;
                 justify-content: center;
+                justify-content: center;
                 align-items: center;
+                
                 /* width: 350px; */
         
             
@@ -340,6 +343,8 @@ h1{
                     text-align: center;
                    
                    }
+
+                   .next{position:absolute;}
                 
 
 
