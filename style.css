@@ -14,7 +14,7 @@ body{ display: flex;
 #PT{
     display:flex ;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
 
 
 }
@@ -32,6 +32,17 @@ body{ display: flex;
     
 }
 
+#mainchat{
+    background: hsl(270, 20%, 96%);
+    width:240px;
+    height: 480px ;
+    border-radius: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-items: center;
+ }
 
 #phone .mini-purple{
     display: flex;
@@ -183,17 +194,7 @@ h4{ margin-left: 16px;}
     
  }
 
- #mainchat{
-    background: hsl(270, 20%, 96%);
-    width:240px;
-    height: 480px ;
-    border-radius: 10px;
-    margin-left: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-items: center;
- }
+
 
  form{
     display: flex;
@@ -293,3 +294,53 @@ h1{
     width: 400px;
     font-size: 12px;
 }
+
+.bb{ display: flex;}
+.pr{ display: flex;
+        justify-content: center;
+    align-items: center;}
+
+/*...media query...*/
+
+
+@media (max-width: 600px){
+
+    body{flex-direction:column ;
+         justify-content: spac;
+         height: 700px;
+        
+        }
+
+        #purple{
+            height: 450px;
+            width: 100px;}
+
+        #PT{
+            margin-top: 20px;}
+
+            #para{
+                margin-top: 40px;
+                justify-content: center;
+                align-items: center;
+                /* width: 350px; */
+        
+            
+            }
+
+            h1{
+                font-size: xx-large;
+                 margin: 0;}
+
+                .pp{
+                    background: none;
+                    color: hsl(270, 7%, 64%);
+                    margin-top: 25px;
+                    line-height: 15px;
+                    font-size: 15px;
+                    text-align: center;
+                   
+                   }
+                
+
+
+            }
