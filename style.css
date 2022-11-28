@@ -213,7 +213,7 @@ h4{ margin-left: 16px;}
         border-radius: 10px;
         color: white;
         margin-left: 11rem;
-    position: fixed;}
+    position: absolute;}
 .bp{
     height: 30px;
 }
@@ -306,7 +306,7 @@ h1{
 @media (max-width: 600px){
 
     body{flex-direction:column ;
-         justify-content: spac;
+         justify-content: space-between;
          height: 700px;
          width: fit-content;
         
@@ -317,17 +317,14 @@ h1{
             width: 100px;}
 
         #PT{
-            margin-top: 20px;}
+            margin-top: 20px;} 
 
             #para{
                 margin-top: 40px;
                 justify-content: center;
                 justify-content: center;
                 align-items: center;
-                
-                /* width: 350px; */
-        
-            
+               
             }
 
             h1{
@@ -336,16 +333,16 @@ h1{
 
                 .pp{
                     background: none;
-                    color: hsl(270, 7%, 64%);
+                   
                     margin-top: 25px;
                     line-height: 15px;
                     font-size: 15px;
                     text-align: center;
+            
                    
                    }
 
                    .next{position:absolute;}
-                
-
+        
 
             }
